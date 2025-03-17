@@ -167,11 +167,36 @@ paths:
     get:
       summary: Your GET endpoint
       tags: []
-      responses: {}
+      responses:
+        '100':
+          description: Continue
+          content:
+            application/xml:
+              schema:
+                type: object
+                properties: {}
+            application/pdf:
+              schema:
+                type: object
+                properties: {}
       operationId: get-user-test
       x-stoplight:
         id: 866cvuf6xaj12
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {}
     parameters: []
+  /users/test:
+    delete:
+      summary: Delete
+      tags: []
+      responses: {}
+      operationId: delete-users-test
+      x-stoplight:
+        id: vdz8sqeheud1u
 components:
   schemas:
     User:

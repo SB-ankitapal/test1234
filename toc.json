@@ -1,0 +1,28 @@
+{
+  "collapseTableOfContents": false,
+  "items": [
+    {
+      "type": "item",
+      "title": "testArticle",
+      "uri": "/docs/testArticle.md"
+    },
+    {
+      "type": "divider",
+      "title": "APIS"
+    },
+    {
+      "type": "item",
+      "title": "APIFile",
+      "uri": "/reference/APIFile.yaml"
+    },
+    {
+      "type": "divider",
+      "title": "Schemas"
+    },
+    {
+      "type": "item",
+      "title": "model12",
+      "uri": "/models/model12.yaml"
+    }
+  ]
+}
